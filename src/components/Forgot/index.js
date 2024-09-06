@@ -18,8 +18,12 @@ class Forgot extends Component {
             body: JSON.stringify({ email }),
         })
         const body=await response.json()
+        
         if(body.ok==="error"){
             alert("User Not Found")
+        }
+        else{
+            alert("Email sent")
         }
     }
 
