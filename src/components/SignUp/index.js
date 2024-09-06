@@ -1,6 +1,5 @@
 import './index.css'
 import { Component } from 'react'
-import Cookies from 'js-cookie'
 import app from '../firebase_config'
 import { getAuth, RecaptchaVerifier, signInWithPhoneNumber } from "firebase/auth";
 
@@ -17,10 +16,7 @@ class SignUp extends Component {
 
   state = { errorMsg: '', username: '', password: '', email: "", phoneNum: "", verifyBtn: false, verifyOtp: false, otp: "" }
 
-  navigateToHome = JwtToken => {
-    Cookies.set('jwt_token', JwtToken, { expires: 1 })
-
-  }
+  
 
   onCaptchVerify = () => {
     if (!document.getElementById('recaptcha-container')) {
