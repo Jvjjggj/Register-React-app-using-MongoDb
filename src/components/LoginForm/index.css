@@ -1,0 +1,35 @@
+.bg-containerr {
+    height: 100vh;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    color: #ffffff;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    
+  }
+  .card {
+    background-color: #202020;
+    display: flex;
+    border-radius: 10px;
+    padding: 50%;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  .website-img {
+    height: 10%;
+    align-self: center;
+  }
+  .error-para {
+    color: #ff0b37;
+  }
+  .forget-register-container{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+  }
+
+  .l{
+    text-decoration: none;
+    color: #ffffff;
+  }

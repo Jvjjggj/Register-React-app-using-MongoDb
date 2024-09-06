@@ -1,0 +1,28 @@
+.bg-container {
+    justify-content: center;
+    display: flex;
+    color: #ffffff;
+    align-items: center;
+  }
+  .card {
+    background-color: #202020;
+    display: flex;
+    border-radius: 10px;
+    padding: 5%;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  .website-img {
+    height: 10%;
+    align-self: center;
+    margin: 10px;
+  }
+  .error-para {
+    color: #ff0b37;
+  }
+ .div1{
+  margin: 5px;
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+ }

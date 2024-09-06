@@ -1,0 +1,24 @@
+.home{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 10px;
+}
+
+h1{
+    margin: 0;
+}
+
+.p{
+    align-self: flex-start;
+    margin: 0;
+}
