@@ -22,6 +22,9 @@ class Forgot extends Component {
         if(body.ok==="error"){
             alert("User Not Found")
         }
+        else if(body.ok==="Passwords should be same"){
+            alert("Passwords should be same")
+        }
         else{
             alert("Email sent")
         }
